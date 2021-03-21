@@ -13,7 +13,7 @@ DB model:
   - id: Integer [Auto Generated]
   - title: String
   - status: String
-  - timeStamp: String [Auto Generated]
+  - lastUpdate: String [Auto Generated]
 ```
 ```yaml
 Endpoints:
