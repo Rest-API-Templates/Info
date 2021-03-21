@@ -7,26 +7,20 @@ Rules for Contributing in this project:
 - All Repository must have Some kind of documentation of API's like Swagger
 - All Repository must follow same schmea for db and same endpoints.
 
+```yaml
 DB model:
 - Todo
   - id: Integer [Auto Generated]
   - title: String
   - status: String
   - timeStamp: String [Auto Generated]
-
-
+```
+```yaml
 Endpoints:
-  - GET ALL Todo's
-    - GET /v1/todo
-  - GET A Single Todo
-    - GET /v1/todo/{id}
-  - Create New Todo
-    - POST /v1/todo
-  - Update Exisitng Todo
-    - PUT /v1/todo
-  - Delete Todo
-    - DELETE /v1/todo/{id}
+  - GET /v1/todo (GET ALL Todo's)
+  - GET /v1/todo/{id} (GET A Single Todo)
+  - PUT /v1/todo (Update Exisitng Todo)
+  - DELETE /v1/todo/{id} (Delete Todo)
+```
 
-
-* Use sqlite as db .
-* Give proper instructions to run the Application.
+> Use sqlite as db and give proper instructions to run the Application.
