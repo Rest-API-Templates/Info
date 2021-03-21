@@ -9,10 +9,10 @@ Rules for Contributing in this project:
 
 DB model:
 - Todo
-  - Id: Integer 
-  - Item: String
+  - Id: Integer [Auto Generated]
+  - Title: String
   - Status: String
-  - TimeStamp: String
+  - TimeStamp: String [Auto Generated]
 
 
 Endpoints:
